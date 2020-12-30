@@ -15,14 +15,14 @@ add headers while making api calls:-
 
 2. user
   * get api/user/                  ( get user detail )
-  * put api/user/<id>/             ( update user )
-  * delete api/user/<id>/          ( delete user )
+  * put api/user/:id/             ( update user )
+  * delete api/user/:id/          ( delete user )
 
 3. todo-list
   * get:    api/todo/               ( returns all todo tasks )
   * post:   api/todo/               ( create a todo task )
-  * put:    api/todo/<id>/          ( update a todo task )
-  * delete: api/vi/<id>/            ( delete a todo task )
+  * put:    api/todo/:id/          ( update a todo task )
+  * delete: api/vi/:id/            ( delete a todo task )
   
   
   
